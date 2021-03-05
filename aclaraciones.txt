@@ -1,4 +1,4 @@
-*****Ejercicio 1*****
+*****Ejercicio 1***** ProductosCrud.php
 
 En la clase Database me faltó poner los atributos static y hacer el try-catch al intentar conectar con la BD.
 Al declarar los atributos estáticos podré llamarlos sin instanciar la clase y al hacer el try-catch recogeré y 
@@ -19,5 +19,14 @@ También me faltó instanciar un producto, darle los valores que nos ha devuelto
 de este modo, hago la llamada a los getters de la clase producto para trabajar con sus datos.
 
 
-*****Ejercicio 2*****
+*****Ejercicio 2***** API_productos.php
+
+En este ejercicio me quedé en blanco e intenté mostrar el resultado de manera manual.
+Ahora he llamado a la función header y dependiendo de los parámatros pasados por GET llamo a la función de obtener producto por nombre objeto o 
+insertar producto en la BD. He creado una función que lance un mensaje de error en caso de no introducir parámetros mediante GET. Y también he 
+creado otra función que nos devuelve la URL correcta. Esta URL no coincide con la del ejercicio, ya que entiendo que querras probar el código y no 
+apunta a ventas.es ni mi archivo se llama index.php. El resto cumple con lo que se pedía en el ejercicio.
+
+
+*****Ejercicio 3*****
 
