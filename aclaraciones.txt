@@ -1,0 +1,23 @@
+*****Ejercicio 1*****
+
+En la clase Database me faltó poner los atributos static y hacer el try-catch al intentar conectar con la BD.
+Al declarar los atributos estáticos podré llamarlos sin instanciar la clase y al hacer el try-catch recogeré y 
+podré manejar un posible error a la hora de conectar con la BD.
+
+En la clase ProductosCrud:
+
+-En todas las funciones debí utilizar bindValue como pide el ejercicio. Ahora he añadido la función rowCount() en 
+los return de insertar, borrar y actualizar para que devuelva el número de filas afectadas, así nos aseguramos que se ha insertado en la BD.
+
+-En el getProductos, me faltaba pasarle en fetchAll() el argumento PDO::FETCH_OBJ para que ordene el array como un objeto de la clase Producto.
+También me faltaba la desconexión a la BD.
+
+-En el getProducto, me faltaba pasarle en fetch() el argumento PDO::FETCH_ASSOC para que me devuelva un array asociativo.
+También me faltó instanciar un producto, darle los valores que nos ha devuelto la consulta y devolver únicamente el producto instanciado.
+
+-En insertar() y actualizar(), en el examen pasaba los datos del producto en variables y ahora paso el objeto producto,
+de este modo, hago la llamada a los getters de la clase producto para trabajar con sus datos.
+
+
+*****Ejercicio 2*****
+
