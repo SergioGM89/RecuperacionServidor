@@ -1,6 +1,9 @@
+//He creado pruebas.php donde he probado la correcta funcionalidad de los ejercicios. Por si te es útil para corregir.
+
+
 *****Ejercicio 1***** ProductosCrud.php
 
-En la clase Database me faltó poner los atributos static y hacer el try-catch al intentar conectar con la BD.
+En el examen, en la clase Database me faltó poner los atributos static y hacer el try-catch al intentar conectar con la BD.
 Al declarar los atributos estáticos podré llamarlos sin instanciar la clase y al hacer el try-catch recogeré y 
 podré manejar un posible error a la hora de conectar con la BD.
 
@@ -51,4 +54,11 @@ El MVC se compone de:
  cuando éste le manda la información, el controlador vuelve a adaptarla para enviarla a la vista (que la mostrará al usuario).
 
 
- 
+He creado un proyecto de codeIgniter llamado Ejercicio4. Creo el Controlador con la función index, que instancia ProductoModel. Luego guardo en $data 
+un array con todos los productos. Por último, llama al método view que abre listado.php pasando el array $data.
+
+En ProductoModel creo una única función que devuelve todos los productos de la tabla productos.
+
+Finalmente, creo la vista listado.php con el título que nos pide el ejercicio y un foreach que nos va mostrando los datos de cada producto por cada línea.
+
+
