@@ -28,5 +28,27 @@ creado otra función que nos devuelve la URL correcta. Esta URL no coincide con 
 apunta a ventas.es ni mi archivo se llama index.php. El resto cumple con lo que se pedía en el ejercicio.
 
 
-*****Ejercicio 3*****
+*****Ejercicio 3***** Empleado.php, Secretario.php, Vendedor.php
 
+En este ejercicio me faltaba: 
+
+-Declarar la clase Empleado como abstracta.
+-Hacer los require a Empleado.php en Vendedor y Secretario.
+-Crear el atributo $despacho en la clase Secretario.
+-La fórmula de calculaSalario() me calculaba el incremento de sueldo, ahora la he modificado para que me devuelva
+el sueldo con el aumento (que es lo que entiendo que se pedía).
+
+
+*****Ejercicio 4*****
+
+El MVC se compone de:
+
+- Vista: Es la encargada de mostrar los datos que recibe al usuario e interactuar con él.
+
+- Modelo: Es quien se encarga de acceder a los datos (BBDD, archivos,...) y devolver las consultas o ejecutar las modificaciones de los datos.
+
+- Controlador: Hace de intermediario entre el modelo y la vista. Recibe las peticiones de la vista, las adapta para solitarle los datos al modelo y
+ cuando éste le manda la información, el controlador vuelve a adaptarla para enviarla a la vista (que la mostrará al usuario).
+
+
+ 
